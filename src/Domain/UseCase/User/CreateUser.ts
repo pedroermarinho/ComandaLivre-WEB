@@ -1,5 +1,5 @@
 import { UserRepository } from "../../Repository/Index";
-import { User } from "../../Entities/Index";
+import { User } from "../../Entities/User";
 
 class CreateUser  {
     constructor(private userRepository: UserRepository) {}
